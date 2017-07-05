@@ -1,0 +1,31 @@
+-Small blind
+-Big blind
+
+Preflop Round:
+-give everyone 2 cards 
+-Call, Raise, Fold (resto de jugadores)
+
+Flop Round:
+-3 Community cards
+-Small blind has to check/bet/fold
+-Next player has to fold/call/raise
+
+Turn round:
+-add 1 community card
+-Small blind has to check/bet/fold
+-Next player has to fold/call/raise
+
+River round:
+-add 1 community card
+-Small blind has to check/bet/fold
+-Next player has to fold/call/raise
+-SHOW DOWN!
+
+------------
+
+There's $100 in the pot. You have $25 left and your opponent bets $50. You are not “priced out” of the pot so to speak.
+If you want to call, you can put your $25 in the pot.
+In this case, if no other players match the $50 bet, the opponent gets $25 back immediately - the amount you couldn't match.
+The player who shows down the best hand picks up the full pot in the middle of the table.
+
+When a player's stack is less than the amount of the small blind, they are automatically considered all-in in the next hand they play, regardless of position.
