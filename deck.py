@@ -22,11 +22,12 @@ class Deck:
         self.cards[key] = value
 
 
-"""deck = Deck()
+deck = Deck()
 
 print deck[51]  # indexing works, prints Card(sign='Hearts', value='K')
 
-print len(deck)  # prints 52
+print deck[51][0]
+"""print len(deck)  # prints 52
 
 print deck[13:16]  # slicing works
 

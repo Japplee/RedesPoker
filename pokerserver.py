@@ -4,6 +4,7 @@ import sys
 from deck import Deck
 from player import Player
 import random
+import pickle
  
 HOST = '' 
 PORT = 8888 
@@ -57,6 +58,9 @@ for x in range(len(PLAYER_LIST)):
         DECK_POSITION -= 1
 
     PLAYER_LIST[x].showHand()
+    SOCKET_LIST[x].send("sendhand")
+    hand = pickle.dumps(PLAYER_LIST[x].hand)
+    SOCKET_LIST[x].send(hand)
 #Flop Round
 print 'Flop round'
 #Turn Round
